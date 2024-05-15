@@ -1,0 +1,39 @@
+#root {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.modal {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  text-align: left;
+  list-style: none;
+}
+
+li {
+  padding: 5px 10px;
+  background-color:var(--grey-2);
+  color: var(--bg-color);
+  margin: 5px 0;
+}
+
+li:hover{
+  background-color: lightblue;
+}
+
+span {
+  cursor: pointer;
+
+}
